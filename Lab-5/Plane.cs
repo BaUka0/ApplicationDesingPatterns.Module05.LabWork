@@ -9,7 +9,7 @@ namespace Lab_5
     public class Plane : ITransport
     {
         public string Model { get; set; }
-        public string Speed { get; set; }
+        public int Speed { get; set; }
         public string Type { get; set; }
 
         public void Move()

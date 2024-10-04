@@ -8,8 +8,8 @@ namespace Lab_5
 {
     public class Bicycle : ITransport
     {
-        public string Model { get; }
-        public int Speed { get; }
+        public string Model { get; set; }
+        public int Speed { get; set; }
 
         public void Move()
         {
